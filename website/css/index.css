@@ -25,11 +25,16 @@ header {
 entry-list{
   grid-area: entry-list;
   background-color: black;
+  color: white
+}
+
+entry_list li,a {
+  color: white;
 }
 
 entry{
   grid-area: entry;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 footer{
@@ -39,7 +44,7 @@ footer{
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr 6fr;
+    grid-template-columns: 2fr 3fr 6fr;
     grid-template-rows: 165px 19fr 1fr;
     grid-template-areas:
         'logo headline header'
